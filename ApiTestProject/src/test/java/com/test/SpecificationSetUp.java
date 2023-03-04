@@ -52,7 +52,7 @@ public class SpecificationSetUp {
 
                 case "uploadingImg" -> {
                     String path = "C:\\Users\\Grzesiek\\Downloads\\testing_img.jpg";
-                    File fileToUpload = new File(path); // to try it out you change path
+                    File fileToUpload = new File(path); // to try it out you have to change the img path
                     if (fileToUpload.exists()) {
 //                        For now json is the only accepting format
                         builder.setAccept("application/json");
