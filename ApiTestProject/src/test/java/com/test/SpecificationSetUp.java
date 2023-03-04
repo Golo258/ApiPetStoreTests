@@ -51,8 +51,17 @@ public class SpecificationSetUp {
                 }
 
                 case "uploadingImg" -> {
-                    String path = "C:\\Users\\Grzesiek\\Downloads\\testing_img.jpg";
-                    File fileToUpload = new File(path); // to try it out you have to change the img path
+                  String path = null;
+                    JFileChooser fileChooser = new JFileChooser();
+                    int result = fileChooser.showOpenDialog(null);
+                    if (result == JFileChooser.APPROVE_OPTION) {
+                        File selectedFile = fileChooser.getSelectedFile();
+                        String absolutePath = selectedFile.getAbsolutePath();
+                        System.out.println("Selected file: " + absolutePath);
+                        path = absolutePath;
+                    }
+                    assert path != null;
+                    File fileToUpload = new File(path);
                     if (fileToUpload.exists()) {
 //                        For now json is the only accepting format
                         builder.setAccept("application/json");
