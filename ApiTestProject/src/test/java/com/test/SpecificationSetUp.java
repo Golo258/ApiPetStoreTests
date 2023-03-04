@@ -5,6 +5,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
+import javax.swing.*;
 import java.io.File;
 import java.util.HashMap;
 
