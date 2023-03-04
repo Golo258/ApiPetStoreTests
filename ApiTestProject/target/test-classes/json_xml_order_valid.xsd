@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Order">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="complete" type="xs:boolean" />
+                <xs:element name="id" type="xs:unsignedByte" />
+                <xs:element name="petId" type="xs:unsignedByte" />
+                <xs:element name="quantity" type="xs:unsignedByte" />
+                <xs:element name="shipDate" type="xs:dateTime" />
+                <xs:element name="status" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

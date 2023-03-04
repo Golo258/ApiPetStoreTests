@@ -1,0 +1,7580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="51.709" tests="93" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\Grzesiek\Desktop\Zadanie Egzminacyjne\GregorProject\target\test-classes;C:\Users\Grzesiek\Desktop\Zadanie Egzminacyjne\GregorProject\target\classes;C:\Users\Grzesiek\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Grzesiek\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Grzesiek\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Grzesiek\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Grzesiek\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Grzesiek\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Grzesiek\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Grzesiek\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Grzesiek\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Grzesiek\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Grzesiek\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Grzesiek\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Grzesiek\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Grzesiek\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Grzesiek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Grzesiek\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Grzesiek\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Grzesiek\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Grzesiek\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Grzesiek\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Grzesiek\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Grzesiek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Grzesiek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Grzesiek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Grzesiek\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Grzesiek\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Grzesiek\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Grzesiek\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Grzesiek\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Grzesiek\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Grzesiek\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Grzesiek\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Grzesiek\.m2\repository\org\slf4j\slf4j-simple\1.7.21\slf4j-simple-1.7.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Grzesiek\AppData\Local\Temp\surefire6396816881530352070\surefirebooter12066825581185219663.jar C:\Users\Grzesiek\AppData\Local\Temp\surefire6396816881530352070 2023-03-04T17-30-11_255-jvmRun1 surefire393770511341544959tmp surefire_08089709553116291862tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Grzesiek\Desktop\Zadanie Egzminacyjne\GregorProject\target\test-classes;C:\Users\Grzesiek\Desktop\Zadanie Egzminacyjne\GregorProject\target\classes;C:\Users\Grzesiek\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Grzesiek\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Grzesiek\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Grzesiek\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Grzesiek\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Grzesiek\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Grzesiek\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Grzesiek\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Grzesiek\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Grzesiek\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Grzesiek\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Grzesiek\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Grzesiek\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Grzesiek\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Grzesiek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Grzesiek\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Grzesiek\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Grzesiek\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Grzesiek\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Grzesiek\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Grzesiek\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Grzesiek\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Grzesiek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\Grzesiek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\Grzesiek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Grzesiek\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Grzesiek\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Grzesiek\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Grzesiek\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Grzesiek\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Grzesiek\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Grzesiek\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Grzesiek\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Grzesiek\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Grzesiek\.m2\repository\org\slf4j\slf4j-simple\1.7.21\slf4j-simple-1.7.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Grzesiek"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Grzesiek\Desktop\Zadanie Egzminacyjne\GregorProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Grzesiek\AppData\Local\Temp\surefire6396816881530352070\surefirebooter12066825581185219663.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="Grzesiek"/>
+    <property name="stdout.encoding" value="Cp1250"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Grzesiek\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Grzesiek\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\Grzesiek\Desktop\Zadanie Egzminacyjne\GregorProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-19\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\apache-maven-3.9.0\bin;C:\MinGW\bin;C:\Users\Grzesiek\AppData\Local\Microsoft\WindowsApps;C:\Users\Grzesiek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\Grzesiek\.dotnet\tools;C:\Users\Grzesiek\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\bin;;C:\Users\Grzesiek\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testCreateUsersArray[json, json, positive](1)" classname="com.test.ApiTestUser" time="3.364">
+    <system-out><![CDATA[testCreateUsersArray started: 
+Code 200
+Test Create UserArray response: {
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsersArray[json, xml, positive](2)" classname="com.test.ApiTestUser" time="0.719">
+    <system-out><![CDATA[testCreateUsersArray started: 
+Code 200
+Test Create UserArray response: <apiResponse>
+  <message>ok</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsersArray[json, , negative_order](3)" classname="com.test.ApiTestUser" time="0.006">
+    <system-out><![CDATA[testCreateUsersArray started: 
+Error occurred. Invalid User data. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsersArray[xml, , negative_order](4)" classname="com.test.ApiTestUser" time="0.002">
+    <system-out><![CDATA[testCreateUsersArray started: 
+Error occurred. Invalid User data. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByLogOut[json, json, positive](1)" classname="com.test.ApiTestUser" time="0.653">
+    <system-out><![CDATA[testGetUserByLogOut started: 
+Code 200
+User cannot log out, because is not logged. 
+Code 400
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByLogOut[json, xml, positive](2)" classname="com.test.ApiTestUser" time="0.673">
+    <system-out><![CDATA[testGetUserByLogOut started: 
+Code 200
+User cannot log out, because is not logged. 
+Code 400
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[json, json, positive](1)" classname="com.test.ApiTestUser" time="0.672">
+    <system-out><![CDATA[testCreateUser started: 
+Code 200
+Test CreateUser response: {
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[json, xml, positive](2)" classname="com.test.ApiTestUser" time="0.662">
+    <system-out><![CDATA[testCreateUser started: 
+Code 200
+Test CreateUser response: <apiResponse>
+  <message>2</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[json, , negative_order](3)" classname="com.test.ApiTestUser" time="0.002">
+    <system-out><![CDATA[testCreateUser started: 
+Error occurred. Invalid User data. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[xml, , negative_order](4)" classname="com.test.ApiTestUser" time="0.002">
+    <system-out><![CDATA[testCreateUser started: 
+Error occurred. Invalid User data. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[json, , positive](1)" classname="com.test.ApiTestUser" time="1.06">
+    <system-out><![CDATA[testGetUserByName started: 
+Code 200
+Test GetUserByName response: {
+    "id": 12,
+    "username": "user123",
+    "firstName": "userGG",
+    "lastName": "lastGG",
+    "email": "user@gmail.com",
+    "password": "osiemjedynek",
+    "phone": "123-432-543",
+    "userStatus": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[xml, , positive](2)" classname="com.test.ApiTestUser" time="0.784">
+    <system-out><![CDATA[testGetUserByName started: 
+Code 200
+Test GetUserByName response: <User>
+  <email>user@gmail.com</email>
+  <firstName>userGG</firstName>
+  <id>12</id>
+  <lastName>lastGG</lastName>
+  <password>osiemjedynek</password>
+  <phone>123-432-543</phone>
+  <userStatus>1</userStatus>
+  <username>user123</username>
+</User>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[json, , negative](3)" classname="com.test.ApiTestUser" time="0.624">
+    <system-out><![CDATA[testGetUserByName started: 
+Code 404
+Test GetUserByName response: {
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[xml, , negative](4)" classname="com.test.ApiTestUser" time="0.66">
+    <system-out><![CDATA[testGetUserByName started: 
+Code 404
+Test GetUserByName response: <apiResponse>
+  <message>User not found</message>
+  <type>error</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[json, , negative_order](5)" classname="com.test.ApiTestUser" time="0.005">
+    <system-out><![CDATA[testGetUserByName started: 
+Code type 400. Invalid output
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[xml, , negative_order](6)" classname="com.test.ApiTestUser" time="0.006">
+    <system-out><![CDATA[testGetUserByName started: 
+Code type 400. Invalid output
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByLogin[json, , positive](1)" classname="com.test.ApiTestUser" time="0.687">
+    <system-out><![CDATA[testGetUserByLogin started: 
+Code 200
+Test Get UserByLogin response: {
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1677947425271"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByLogin[xml, , positive](2)" classname="com.test.ApiTestUser" time="0.664">
+    <system-out><![CDATA[testGetUserByLogin started: 
+Code 200
+Test Get UserByLogin response: <apiResponse>
+  <message>logged in user session:1677947425930</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByLogin[json, , negative_order](3)" classname="com.test.ApiTestUser" time="0.006">
+    <system-out><![CDATA[testGetUserByLogin started: 
+Code type 400. Invalid User username or password
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByLogin[xml, , negative_order](4)" classname="com.test.ApiTestUser" time="0.006">
+    <system-out><![CDATA[testGetUserByLogin started: 
+Code type 400. Invalid User username or password
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName[json, , positive](1)" classname="com.test.ApiTestUser" time="0.001">
+    <system-out><![CDATA[testDeleteUserByName started: 
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName[xml, , positive](2)" classname="com.test.ApiTestUser" time="0.003">
+    <system-out><![CDATA[testDeleteUserByName started: 
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName[json, , negative](3)" classname="com.test.ApiTestUser" time="0.654">
+    <system-out><![CDATA[testDeleteUserByName started: 
+Code 404
+Test Delete UserByName response: 
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName[xml, , negative](4)" classname="com.test.ApiTestUser" time="0.667">
+    <system-out><![CDATA[testDeleteUserByName started: 
+Code 404
+Test Delete UserByName response: 
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName[json, , negative_order](5)" classname="com.test.ApiTestUser" time="0.009">
+    <system-out><![CDATA[testDeleteUserByName started: 
+Error occurred
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName[xml, , negative_order](6)" classname="com.test.ApiTestUser" time="0.003">
+    <system-out><![CDATA[testDeleteUserByName started: 
+Error occurred
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName[json, json, positive](1)" classname="com.test.ApiTestUser" time="0.652">
+    <system-out><![CDATA[testUpdatePetByName started: 
+Code 200
+Test Update UseByName response: {
+    "code": 200,
+    "type": "unknown",
+    "message": "12"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName[json, xml, positive](2)" classname="com.test.ApiTestUser" time="0.652">
+    <system-out><![CDATA[testUpdatePetByName started: 
+Code 200
+Test Update UseByName response: <apiResponse>
+  <message>12</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName[json, json, negative](3)" classname="com.test.ApiTestUser" time="0.651">
+    <system-out><![CDATA[testUpdatePetByName started: 
+testGetUserByLogOut started: 
+Code 200
+Test Get UserByLogOut response: {
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+User is not logged. Cannot update user 
+Code 404
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName[json, xml, negative](4)" classname="com.test.ApiTestUser" time="0.647">
+    <system-out><![CDATA[testUpdatePetByName started: 
+testGetUserByLogOut started: 
+Code 200
+User is not logged. Cannot update user 
+Code 404
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName[json, json, negative_order](5)" classname="com.test.ApiTestUser" time="0.004">
+    <system-out><![CDATA[testUpdatePetByName started: 
+Error occurred. Invalid User username. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByName[json, xml, negative_order](6)" classname="com.test.ApiTestUser" time="0.005">
+    <system-out><![CDATA[testUpdatePetByName started: 
+Error occurred. Invalid User username. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsersList[json, json, positive](1)" classname="com.test.ApiTestUser" time="0.633">
+    <system-out><![CDATA[testCreateUsersList started: 
+Code 200
+Test Create UserList response: {
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsersList[json, xml, positive](2)" classname="com.test.ApiTestUser" time="0.653">
+    <system-out><![CDATA[testCreateUsersList started: 
+Code 200
+Test Create UserList response: <apiResponse>
+  <message>ok</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsersList[json, , negative_order](3)" classname="com.test.ApiTestUser" time="0.005">
+    <system-out><![CDATA[testCreateUsersList started: 
+Error occurred. Invalid User data. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsersList[xml, , negative_order](4)" classname="com.test.ApiTestUser" time="0.002">
+    <system-out><![CDATA[testCreateUsersList started: 
+Error occurred. Invalid User data. Status_Code (400) 
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatingPetStoreOrder[json, json, positive](1)" classname="com.test.ApiTestStore" time="0.644">
+    <system-out><![CDATA[testCreatingPetStoreOrder started: 
+Code 200
+From io.restassured.internal.RestAssuredResponseImpl@24e5389cJson response: {
+    "id": 3,
+    "petId": 0,
+    "quantity": 1,
+    "shipDate": "2023-03-01T00:00:00.000+0000",
+    "status": "placed",
+    "complete": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatingPetStoreOrder[json, xml, positive](2)" classname="com.test.ApiTestStore" time="0.643">
+    <system-out><![CDATA[testCreatingPetStoreOrder started: 
+Code 200
+From io.restassured.internal.RestAssuredResponseImpl@633ddc0cJson response: <Order>
+  <complete>true</complete>
+  <id>3</id>
+  <petId>0</petId>
+  <quantity>1</quantity>
+  <shipDate>2023-03-01T00:00:00Z</shipDate>
+  <status>placed</status>
+</Order>
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatingPetStoreOrder[json, json, negative_order](3)" classname="com.test.ApiTestStore" time="0.631">
+    <system-out><![CDATA[testCreatingPetStoreOrder started: 
+Code 400
+From io.restassured.internal.RestAssuredResponseImpl@1aedf08dJson response: {
+    "code": 400,
+    "type": "unknown",
+    "message": "bad input"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatingPetStoreOrder[json, xml, negative_order](4)" classname="com.test.ApiTestStore" time="0.646">
+    <system-out><![CDATA[testCreatingPetStoreOrder started: 
+Code 400
+From io.restassured.internal.RestAssuredResponseImpl@10fb4575Json response: <apiResponse>
+  <message>bad input</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testGettingPetStoreOrderByID[json, , positive](1)" classname="com.test.ApiTestStore" time="0.647">
+    <system-out><![CDATA[testGettingPetStoreOrderByID started: 
+Code 200
+Test Get PetStoreOrderById response: {
+    "id": 3,
+    "petId": 0,
+    "quantity": 1,
+    "shipDate": "2023-03-01T00:00:00.000+0000",
+    "status": "placed",
+    "complete": true
+}
+An error occurred: Content is not allowed in prolog.
+]]></system-out>
+  </testcase>
+  <testcase name="testGettingPetStoreOrderByID[xml, , positive](2)" classname="com.test.ApiTestStore" time="0.655">
+    <system-out><![CDATA[testGettingPetStoreOrderByID started: 
+Code 200
+Test Get PetStoreOrderById response: <Order>
+  <complete>true</complete>
+  <id>3</id>
+  <petId>0</petId>
+  <quantity>1</quantity>
+  <shipDate>2023-03-01T00:00:00Z</shipDate>
+  <status>placed</status>
+</Order>
+]]></system-out>
+  </testcase>
+  <testcase name="testGettingPetStoreOrderByID[json, , negative](3)" classname="com.test.ApiTestStore" time="0.616">
+    <system-out><![CDATA[testGettingPetStoreOrderByID started: 
+Code 404
+Test Get PetStoreOrderById response: {
+    "code": 1,
+    "type": "error",
+    "message": "Order not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGettingPetStoreOrderByID[xml, , negative](4)" classname="com.test.ApiTestStore" time="0.64">
+    <system-out><![CDATA[testGettingPetStoreOrderByID started: 
+Code 404
+Test Get PetStoreOrderById response: <apiResponse>
+  <message>Order not found</message>
+  <type>error</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testGettingPetStoreOrderByID[json, , negative_order](5)" classname="com.test.ApiTestStore" time="0.009">
+    <system-out><![CDATA[testGettingPetStoreOrderByID started: 
+An error occurred: Numbers bigger than 10 are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testGettingPetStoreOrderByID[xml, , negative_order](6)" classname="com.test.ApiTestStore" time="0.004">
+    <system-out><![CDATA[testGettingPetStoreOrderByID started: 
+An error occurred: Numbers bigger than 10 are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletingPetStoreOrderByID[json, , positive](1)" classname="com.test.ApiTestStore" time="0.646">
+    <system-out><![CDATA[testDeletingPetStoreOrderByID started: 
+Code 200
+Test Delete PetStoreOrderById response: {
+    "id": 3,
+    "petId": 0,
+    "quantity": 1,
+    "shipDate": "2023-03-01T00:00:00.000+0000",
+    "status": "placed",
+    "complete": true
+}
+An error occurred: Content is not allowed in prolog.
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletingPetStoreOrderByID[xml, , positive](2)" classname="com.test.ApiTestStore" time="0.653">
+    <system-out><![CDATA[testDeletingPetStoreOrderByID started: 
+Code 200
+Test Delete PetStoreOrderById response: <Order>
+  <complete>true</complete>
+  <id>3</id>
+  <petId>0</petId>
+  <quantity>1</quantity>
+  <shipDate>2023-03-01T00:00:00Z</shipDate>
+  <status>placed</status>
+</Order>
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletingPetStoreOrderByID[json, , negative](3)" classname="com.test.ApiTestStore" time="0.646">
+    <system-out><![CDATA[testDeletingPetStoreOrderByID started: 
+Code 404
+Test Delete PetStoreOrderById response: {
+    "code": 1,
+    "type": "error",
+    "message": "Order not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletingPetStoreOrderByID[xml, , negative](4)" classname="com.test.ApiTestStore" time="0.64">
+    <system-out><![CDATA[testDeletingPetStoreOrderByID started: 
+Code 404
+Test Delete PetStoreOrderById response: <apiResponse>
+  <message>Order not found</message>
+  <type>error</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletingPetStoreOrderByID[json, , negative_order](5)" classname="com.test.ApiTestStore" time="0.011">
+    <system-out><![CDATA[testDeletingPetStoreOrderByID started: 
+Code 400
+An error occurred: Numbers bigger than 10 are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletingPetStoreOrderByID[xml, , negative_order](6)" classname="com.test.ApiTestStore" time="0.005">
+    <system-out><![CDATA[testDeletingPetStoreOrderByID started: 
+Code 400
+An error occurred: Numbers bigger than 10 are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testGettingStoreInventory" classname="com.test.ApiTestStore" time="0.629">
+    <system-out><![CDATA[testGettingStoreInventory started: 
+Test Get PetStore Inventory response: {
+    "sold": 9,
+    "New": 1,
+    "new_new": 1,
+    "string": 789,
+    "unavailable": 1,
+    " available": 1,
+    "pending": 6,
+    "available": 173,
+    "z probigom": 1,
+    "0": 12,
+    "123": 1,
+    "for sale": 1,
+    "invalid": 2
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePetById[json, app_form, positive](1)" classname="com.test.APITestPet" time="0.657">
+    <system-out><![CDATA[testCreatePetById started: 
+Code 200
+New pet response: {
+    "code": 200,
+    "type": "unknown",
+    "message": "13"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePetById[xml, app_form, positive](2)" classname="com.test.APITestPet" time="0.624">
+    <system-out><![CDATA[testCreatePetById started: 
+Code 200
+New pet response: <apiResponse>
+  <message>13</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePetById[json, app_form, negative](3)" classname="com.test.APITestPet" time="0.635">
+    <system-out><![CDATA[testCreatePetById started: 
+Code 404
+New pet response: {
+    "code": 404,
+    "type": "unknown",
+    "message": "not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePetById[xml, app_form, negative](4)" classname="com.test.APITestPet" time="0.673">
+    <system-out><![CDATA[testCreatePetById started: 
+Code 404
+New pet response: <apiResponse>
+  <message>not found</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePetByUploadedImg[json, uploadingImg, positive](1)" classname="com.test.APITestPet" time="0.989">
+    <system-out><![CDATA[testCreatePetByUploadedImg started: 
+Code 200
+Responde view: {
+    "code": 200,
+    "type": "unknown",
+    "message": "additionalMetadata: uploadingTest\nFile uploaded to ./testing_img.jpg, 44524 bytes"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePetByUploadedImg[json, uploadingImg, negative](2)" classname="com.test.APITestPet" time="0.659">
+    <system-out><![CDATA[testCreatePetByUploadedImg started: 
+Code 404
+Responde view: {
+    "code": 404,
+    "type": "unknown",
+    "message": "null for uri: http://petstore.swagger.io/v2/bad_path2/-5123/uploadImage"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById[json, , positive](1)" classname="com.test.APITestPet" time="0.632">
+    <system-out><![CDATA[testGetPetById started: 
+Code 200
+Test Get Pet by id 13response: {
+    "id": 13,
+    "name": "GoodBoy1234",
+    "photoUrls": [
+        "https://good_dog123.png"
+    ],
+    "tags": [
+        {
+            "id": 321,
+            "name": "BigOnes"
+        }
+    ],
+    "status": " available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById[xml, , positive](2)" classname="com.test.APITestPet" time="0.634">
+    <system-out><![CDATA[testGetPetById started: 
+Code 200
+Test Get Pet by id 13response: <Pet>
+  <id>13</id>
+  <name>GoodBoy1234</name>
+  <photoUrls>
+    <photoUrl>https://good_dog123.png</photoUrl>
+  </photoUrls>
+  <status> available</status>
+  <tags>
+    <tag>
+      <id>321</id>
+      <name>BigOnes</name>
+    </tag>
+  </tags>
+</Pet>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById[json, , negative](3)" classname="com.test.APITestPet" time="0.644">
+    <system-out><![CDATA[testGetPetById started: 
+Code 404
+Test Get Pet by id -125126651response: {
+    "code": 1,
+    "type": "error",
+    "message": "Pet not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById[xml, , negative](4)" classname="com.test.APITestPet" time="0.656">
+    <system-out><![CDATA[testGetPetById started: 
+Code 404
+Test Get Pet by id -125126651response: <apiResponse>
+  <message>Pet not found</message>
+  <type>error</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById[json, , negative_order](5)" classname="com.test.APITestPet" time="0.004">
+    <system-out><![CDATA[testGetPetById started: 
+Code type 400. Invalid output
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById[xml, , negative_order](6)" classname="com.test.APITestPet" time="0.006">
+    <system-out><![CDATA[testGetPetById started: 
+Code type 400. Invalid output
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetByStatus[available, [Ljava.lang.String;@b9b97ad, withApiKey, positive](1)" classname="com.test.APITestPet" time="1.78">
+    <system-out><![CDATA[testGetPetByStatus started: 
+Data from app:json
+Code 200
+Test status response:[
+    {
+        "id": 9223372036854253504,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253515,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 716,
+        "category": {
+            "id": 0,
+            "name": "cat"
+        },
+        "name": "Anastacio",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "black"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140497180179,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "test",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253543,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253545,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253550,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253551,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253582,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253583,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253584,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253585,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253588,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 435,
+        "category": {
+            "id": 0,
+            "name": "cat"
+        },
+        "name": "Kristy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "black"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253595,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 711721,
+        "category": {
+            "id": 921642,
+            "name": "Desiree Guzman"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 924150,
+                "name": "Brenda Bell"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 595,
+        "category": {
+            "id": 0,
+            "name": "cat"
+        },
+        "name": "Abagail",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "black"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253608,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253609,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253610,
+        "category": {
+            "id": 0,
+            "name": "Jerry"
+        },
+        "name": "Mouse",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Mouse"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 187001,
+        "category": {
+            "id": 226328,
+            "name": "Keith Boyd"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 260615,
+                "name": "Teresa Smith"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253619,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253636,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253656,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253673,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253675,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253680,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253681,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 321321321,
+        "category": {
+            "id": 33,
+            "name": "york"
+        },
+        "name": "tommy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 3,
+                "name": "Rozumovich"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253712,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253716,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253717,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253718,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253770,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253771,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253774,
+        "category": {
+            "id": 0,
+            "name": "monkey"
+        },
+        "name": "Banana",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253781,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253798,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253814,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253815,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253821,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253822,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253835,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253844,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253847,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253848,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253879,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253880,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253883,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253888,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253893,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "test",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253894,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "test",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253895,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "test",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253896,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "test",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253901,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253938,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253940,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253947,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253948,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253964,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253965,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253972,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253976,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253979,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854253982,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254027,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254028,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254031,
+        "category": {
+            "id": -74696456,
+            "name": "culpa fugiat veniam cupidatat sint"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "culpa commodo",
+            "Lorem in veniam qui"
+        ],
+        "tags": [
+            {
+                "id": -28973829,
+                "name": "cillum eu ad adipisicing do"
+            },
+            {
+                "id": -12934735,
+                "name": "est do sint Ut sunt"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254032,
+        "name": "Demenkov [Val Crow]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254035,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "morce",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254038,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254044,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254045,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254047,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254056,
+        "name": "Demenkov [Luna Tick]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254066,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254073,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254075,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254076,
+        "name": "Demenkov [Anita Bathe]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254077,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254078,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 870,
+        "category": {
+            "id": 0,
+            "name": "cat"
+        },
+        "name": "Karelle",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "black"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254106,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254113,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254114,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254116,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254161,
+        "category": {
+            "id": 1,
+            "name": "Mèo Anh lông dài"
+        },
+        "name": "Trắng",
+        "photoUrls": [
+            "http://placeimg.com/640/480/cats"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "MeoAnhlongdai"
+            },
+            {
+                "id": 1,
+                "name": "Trang"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254172,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254173,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254176,
+        "name": "Demenkov [Marsha Mellow]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254178,
+        "category": {
+            "id": 1,
+            "name": "Mèo Anh lông dài"
+        },
+        "name": "Trắng",
+        "photoUrls": [
+            "youtube.com"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "MeoAnhlongdai"
+            },
+            {
+                "id": 1,
+                "name": "Trang"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254180,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254181,
+        "name": "Demenkov [Eve Ning]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254184,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1009,
+        "category": {
+            "id": 1,
+            "name": "Home pet"
+        },
+        "name": "Pyps with big boobs",
+        "photoUrls": [
+            "Http:\\Googgle.com"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "QA"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254187,
+        "name": "Demenkov [Ed Jewcation]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254188,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254190,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254201,
+        "category": {
+            "id": 0,
+            "name": "monkey"
+        },
+        "name": "Banana",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 19090,
+        "category": {
+            "id": 0,
+            "name": "kitten"
+        },
+        "name": "Goose",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254204,
+        "name": "Demenkov [Lou Dan Obseen]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 403,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Kot",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254214,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254217,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254219,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 112233,
+        "category": {
+            "id": 30,
+            "name": "Eq-dog"
+        },
+        "name": "Postman",
+        "photoUrls": [
+            "URLLink"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "Doberman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9222968140491042131,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254223,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254224,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254227,
+        "name": "pineapple",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1245,
+        "category": {
+            "id": 1245,
+            "name": "xyz"
+        },
+        "name": "xyz",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 251,
+        "category": {
+            "id": 0,
+            "name": "test1"
+        },
+        "name": "dog1",
+        "photoUrls": [
+            "url1"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854254235,
+        "category": {
+            "id": 0,
+            "name": "cat"
+        },
+        "name": "Veda",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "black"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1238586,
+        "category": {
+            "id": 1,
+            "name": "cats"
+        },
+        "name": "Takeshi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "troublemaker"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255005,
+        "name": "pineapple",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255011,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255012,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255013,
+        "name": "Demenkov [Megan Bacon]",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255014,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255015,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2314142,
+        "category": {
+            "id": 1,
+            "name": "cats"
+        },
+        "name": "Takeshi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "troublemaker"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 25,
+        "category": {
+            "id": 0,
+            "name": "test13456£"
+        },
+        "name": "dog2",
+        "photoUrls": [
+            "url1"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255026,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255027,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255032,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255065,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255067,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255068,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255074,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255075,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255092,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255093,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255094,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255095,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255096,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255101,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 57565868,
+        "category": {
+            "id": 1,
+            "name": "cats"
+        },
+        "name": "Takeshi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "troublemaker"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255110,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 123123,
+        "category": {
+            "id": 1,
+            "name": "cats"
+        },
+        "name": "Takeshi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "troublemaker"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255144,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255145,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255147,
+        "category": {
+            "id": 0,
+            "name": "Jerry"
+        },
+        "name": "Mouse",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Mouse"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255152,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255153,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Puff",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255156,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255181,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255189,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255191,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255199,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854255200,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1320,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "name": "mark",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 112,
+        "category": {
+            "id": 1,
+            "name": "manki"
+        },
+        "name": "oscar",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1234124,
+        "category": {
+            "id": 1,
+            "name": "cats"
+        },
+        "name": "Takeshi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "troublemaker"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 420,
+        "category": {
+            "id": 42,
+            "name": "Chihuahua"
+        },
+        "name": "PasBre",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2023,
+        "category": {
+            "id": 0,
+            "name": "doggy"
+        },
+        "name": "pretty",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1112,
+        "category": {
+            "id": 12,
+            "name": "Sad"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2323,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "dog",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "tomy"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 32144412,
+        "category": {
+            "id": 1,
+            "name": "cats"
+        },
+        "name": "Takeshi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "troublemaker"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1487,
+        "category": {
+            "id": 0,
+            "name": "dolboeb"
+        },
+        "name": "pivozavr",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 12344,
+        "category": {
+            "id": 1,
+            "name": "cats"
+        },
+        "name": "Takeshi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 13,
+                "name": "troublemaker"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2,
+        "category": {
+            "id": 0,
+            "name": "dog"
+        },
+        "name": "Tom",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372016900001111,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "bird",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372016900001112,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Passarinhoinho",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1234321,
+        "category": {
+            "id": 0,
+            "name": "Cat"
+        },
+        "name": "Pamuk",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "My cute cat"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 121212,
+        "category": {
+            "id": 0,
+            "name": "birdie"
+        },
+        "name": "cikcik",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "cute"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 42181115,
+        "category": {
+            "id": 8557341,
+            "name": "ut nisi"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "fugiat cillum",
+            "cillum"
+        ],
+        "tags": [
+            {
+                "id": 67927893,
+                "name": "et Excepteur ad"
+            },
+            {
+                "id": -13431872,
+                "name": "sint ut"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 20083319,
+        "category": {
+            "id": 62517053,
+            "name": "non anim quis"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "enim Ut",
+            "ad "
+        ],
+        "tags": [
+            {
+                "id": -59403361,
+                "name": "nulla ad"
+            },
+            {
+                "id": -56161569,
+                "name": "ullamco ex"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372016900001113,
+        "category": {
+            "id": 0,
+            "name": "bob"
+        },
+        "name": "camaleão",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 456,
+        "name": "GoodBoy1234",
+        "photoUrls": [
+            "https://good_dog123.png"
+        ],
+        "tags": [
+            {
+                "id": 321,
+                "name": "BigOnes"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 21,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 77777,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Good",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    }
+]
+Data from app:xml
+Code 200
+Test status response:<pets>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253504</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253515</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cat</name>
+    </category>
+    <id>716</id>
+    <name>Anastacio</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>black</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9222968140497180179</id>
+    <name>test</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253543</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253545</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253550</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253551</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253582</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253583</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253584</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253585</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253588</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cat</name>
+    </category>
+    <id>435</id>
+    <name>Kristy</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>black</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253595</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>921642</id>
+      <name>Desiree Guzman</name>
+    </category>
+    <id>711721</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>924150</id>
+        <name>Brenda Bell</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cat</name>
+    </category>
+    <id>595</id>
+    <name>Abagail</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>black</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253608</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253609</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>Jerry</name>
+    </category>
+    <id>9223372036854253610</id>
+    <name>Mouse</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>Mouse</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>226328</id>
+      <name>Keith Boyd</name>
+    </category>
+    <id>187001</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>260615</id>
+        <name>Teresa Smith</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253619</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253636</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253656</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253673</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253675</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253680</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253681</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>33</id>
+      <name>york</name>
+    </category>
+    <id>321321321</id>
+    <name>tommy</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>3</id>
+        <name>Rozumovich</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253712</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253716</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253717</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253718</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253770</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253771</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>monkey</name>
+    </category>
+    <id>9223372036854253774</id>
+    <name>Banana</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253781</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253798</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253814</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253815</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253821</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253822</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253835</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253844</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253847</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253848</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253879</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253880</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253883</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253888</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253893</id>
+    <name>test</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253894</id>
+    <name>test</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253895</id>
+    <name>test</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253896</id>
+    <name>test</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253901</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253938</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253940</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253947</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253948</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253964</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253965</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253972</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253976</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854253979</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854253982</id>
+    <name>doggie</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254027</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254028</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>-74696456</id>
+      <name>culpa fugiat veniam cupidatat sint</name>
+    </category>
+    <id>9223372036854254031</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>culpa commodo</photoUrl>
+      <photoUrl>Lorem in veniam qui</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>-28973829</id>
+        <name>cillum eu ad adipisicing do</name>
+      </tag>
+      <tag>
+        <id>-12934735</id>
+        <name>est do sint Ut sunt</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254032</id>
+    <name>Demenkov [Val Crow]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254035</id>
+    <name>morce</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254038</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254044</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254045</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254047</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254056</id>
+    <name>Demenkov [Luna Tick]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254066</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254073</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254075</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254076</id>
+    <name>Demenkov [Anita Bathe]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254077</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254078</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cat</name>
+    </category>
+    <id>870</id>
+    <name>Karelle</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>black</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254106</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254113</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254114</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254116</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>Mèo Anh lông dài</name>
+    </category>
+    <id>9223372036854254161</id>
+    <name>Trắng</name>
+    <photoUrls>
+      <photoUrl>http://placeimg.com/640/480/cats</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>MeoAnhlongdai</name>
+      </tag>
+      <tag>
+        <id>1</id>
+        <name>Trang</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254172</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254173</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254176</id>
+    <name>Demenkov [Marsha Mellow]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>Mèo Anh lông dài</name>
+    </category>
+    <id>9223372036854254178</id>
+    <name>Trắng</name>
+    <photoUrls>
+      <photoUrl>youtube.com</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>MeoAnhlongdai</name>
+      </tag>
+      <tag>
+        <id>1</id>
+        <name>Trang</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254180</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254181</id>
+    <name>Demenkov [Eve Ning]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254184</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>Home pet</name>
+    </category>
+    <id>1009</id>
+    <name>Pyps with big boobs</name>
+    <photoUrls>
+      <photoUrl>Http:\Googgle.com</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>QA</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254187</id>
+    <name>Demenkov [Ed Jewcation]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254188</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254190</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>monkey</name>
+    </category>
+    <id>9223372036854254201</id>
+    <name>Banana</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>kitten</name>
+    </category>
+    <id>19090</id>
+    <name>Goose</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254204</id>
+    <name>Demenkov [Lou Dan Obseen]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>403</id>
+    <name>Kot</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254214</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254217</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254219</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>30</id>
+      <name>Eq-dog</name>
+    </category>
+    <id>112233</id>
+    <name>Postman</name>
+    <photoUrls>
+      <photoUrl>URLLink</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>10</id>
+        <name>Doberman</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9222968140491042131</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254223</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854254224</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254227</id>
+    <name>pineapple</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1245</id>
+      <name>xyz</name>
+    </category>
+    <id>1245</id>
+    <name>xyz</name>
+    <photoUrls>
+      <photoUrl>test</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>test1</name>
+    </category>
+    <id>251</id>
+    <name>dog1</name>
+    <photoUrls>
+      <photoUrl>url1</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cat</name>
+    </category>
+    <id>9223372036854254235</id>
+    <name>Veda</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>black</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>cats</name>
+    </category>
+    <id>1238586</id>
+    <name>Takeshi</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>13</id>
+        <name>troublemaker</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854255005</id>
+    <name>pineapple</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255011</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255012</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854255013</id>
+    <name>Demenkov [Megan Bacon]</name>
+    <photoUrls/>
+    <status>available</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255014</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255015</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>cats</name>
+    </category>
+    <id>2314142</id>
+    <name>Takeshi</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>13</id>
+        <name>troublemaker</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>test13456£</name>
+    </category>
+    <id>25</id>
+    <name>dog2</name>
+    <photoUrls>
+      <photoUrl>url1</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255026</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255027</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255032</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255065</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255067</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255068</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255074</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255075</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255092</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255093</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255094</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255095</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255096</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255101</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>cats</name>
+    </category>
+    <id>57565868</id>
+    <name>Takeshi</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>13</id>
+        <name>troublemaker</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255110</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>cats</name>
+    </category>
+    <id>123123</id>
+    <name>Takeshi</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>13</id>
+        <name>troublemaker</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255144</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255145</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>Jerry</name>
+    </category>
+    <id>9223372036854255147</id>
+    <name>Mouse</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>Mouse</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255152</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255153</id>
+    <name>Puff</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255156</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255181</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255189</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255191</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255199</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372036854255200</id>
+    <name>fish</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cats</name>
+    </category>
+    <id>1320</id>
+    <name>mark</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>manki</name>
+    </category>
+    <id>112</id>
+    <name>oscar</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>cats</name>
+    </category>
+    <id>1234124</id>
+    <name>Takeshi</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>13</id>
+        <name>troublemaker</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>42</id>
+      <name>Chihuahua</name>
+    </category>
+    <id>420</id>
+    <name>PasBre</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>doggy</name>
+    </category>
+    <id>2023</id>
+    <name>pretty</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>12</id>
+      <name>Sad</name>
+    </category>
+    <id>1112</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>2323</id>
+    <name>dog</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>tomy</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>cats</name>
+    </category>
+    <id>32144412</id>
+    <name>Takeshi</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>13</id>
+        <name>troublemaker</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>dolboeb</name>
+    </category>
+    <id>1487</id>
+    <name>pivozavr</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>cats</name>
+    </category>
+    <id>12344</id>
+    <name>Takeshi</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>13</id>
+        <name>troublemaker</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>dog</name>
+    </category>
+    <id>2</id>
+    <name>Tom</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372016900001111</id>
+    <name>bird</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>9223372016900001112</id>
+    <name>Passarinhoinho</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>Cat</name>
+    </category>
+    <id>1234321</id>
+    <name>Pamuk</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>My cute cat</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>birdie</name>
+    </category>
+    <id>121212</id>
+    <name>cikcik</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>cute</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>8557341</id>
+      <name>ut nisi</name>
+    </category>
+    <id>42181115</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>fugiat cillum</photoUrl>
+      <photoUrl>cillum</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>67927893</id>
+        <name>et Excepteur ad</name>
+      </tag>
+      <tag>
+        <id>-13431872</id>
+        <name>sint ut</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>62517053</id>
+      <name>non anim quis</name>
+    </category>
+    <id>20083319</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>enim Ut</photoUrl>
+      <photoUrl>ad </photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>-59403361</id>
+        <name>nulla ad</name>
+      </tag>
+      <tag>
+        <id>-56161569</id>
+        <name>ullamco ex</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>bob</name>
+    </category>
+    <id>9223372016900001113</id>
+    <name>camaleão</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>string</name>
+    </category>
+    <id>12</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>456</id>
+    <name>GoodBoy1234</name>
+    <photoUrls>
+      <photoUrl>https://good_dog123.png</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>321</id>
+        <name>BigOnes</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>21</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>1</id>
+      <name>string</name>
+    </category>
+    <id>1</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>1</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>string</name>
+    </category>
+    <id>77777</id>
+    <name>Good</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>available</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+</pets>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetByStatus[pending, [Ljava.lang.String;@b9b97ad, withApiKey, positive](2)" classname="com.test.APITestPet" time="1.205">
+    <system-out><![CDATA[testGetPetByStatus started: 
+Data from app:json
+Code 200
+Test status response:[
+    {
+        "id": 41,
+        "category": {
+            "id": 0,
+            "name": "Reksio"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string123"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 49,
+        "category": {
+            "id": 0,
+            "name": "Reksiov2"
+        },
+        "name": "Zbyszek",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 51,
+                "name": "Piesu"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 31662904,
+        "category": {
+            "id": -72976378,
+            "name": "consequat commodo dolor"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolor",
+            "aliquip"
+        ],
+        "tags": [
+            {
+                "id": -81536039,
+                "name": "officia non exercitation laborum"
+            },
+            {
+                "id": -81700539,
+                "name": "sed quis"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9223372036854251843,
+        "category": {
+            "id": 0,
+            "name": "monkey"
+        },
+        "name": "Fruit",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9223372036854254228,
+        "name": "pineapple",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9223372036854255006,
+        "name": "pineapple",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            
+        ],
+        "status": "pending"
+    }
+]
+Data from app:xml
+Code 200
+Test status response:<pets>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>Reksio</name>
+    </category>
+    <id>41</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>pending</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string123</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>Reksiov2</name>
+    </category>
+    <id>49</id>
+    <name>Zbyszek</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>pending</status>
+    <tags>
+      <tag>
+        <id>51</id>
+        <name>Piesu</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>-72976378</id>
+      <name>consequat commodo dolor</name>
+    </category>
+    <id>31662904</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>dolor</photoUrl>
+      <photoUrl>aliquip</photoUrl>
+    </photoUrls>
+    <status>pending</status>
+    <tags>
+      <tag>
+        <id>-81536039</id>
+        <name>officia non exercitation laborum</name>
+      </tag>
+      <tag>
+        <id>-81700539</id>
+        <name>sed quis</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>monkey</name>
+    </category>
+    <id>9223372036854251843</id>
+    <name>Fruit</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>pending</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254228</id>
+    <name>pineapple</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>pending</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <id>9223372036854255006</id>
+    <name>pineapple</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>pending</status>
+    <tags/>
+  </Pet>
+</pets>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetByStatus[sold, [Ljava.lang.String;@b9b97ad, withApiKey, positive](3)" classname="com.test.APITestPet" time="1.266">
+    <system-out><![CDATA[testGetPetByStatus started: 
+Data from app:json
+Code 200
+Test status response:[
+    {
+        "id": 9223372036854253991,
+        "category": {
+            "id": 0,
+            "name": "monkey"
+        },
+        "name": "Bananka",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854254229,
+        "name": "pineapple",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 162,
+        "category": {
+            "id": 0,
+            "name": "cat"
+        },
+        "name": "Clay Wolf",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "black"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854255000,
+        "category": {
+            "id": 0,
+            "name": "cat"
+        },
+        "name": "Tyrone Wintheiser",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "black"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854255007,
+        "name": "pineapple",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 4343,
+        "category": {
+            "id": 0,
+            "name": "monkey"
+        },
+        "name": "Bananka",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854255076,
+        "category": {
+            "id": 0,
+            "name": "dog"
+        },
+        "name": "Patron2",
+        "photoUrls": [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fzoo-club.com.ua%2Fru%2Fdesjat-samih-malenkih-porod-sobak-v-mire%2Fabout-dogs&psig=AOvVaw23SHqGUh5tBFM9XlPualyW&ust=1678027437560000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDdvbzBwv0CFQAAAAAdAAAAABAE"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 20593238,
+        "category": {
+            "id": 96650357,
+            "name": "ut aute"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "in deserunt sit qui elit",
+            "do dolore"
+        ],
+        "tags": [
+            {
+                "id": 80489283,
+                "name": "dolore elit aute Excepteur anim"
+            },
+            {
+                "id": -29854588,
+                "name": "enim"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 345,
+        "category": {
+            "id": 45,
+            "name": "string"
+        },
+        "name": "KOSMO",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    }
+]
+Data from app:xml
+Code 200
+Test status response:<pets>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>monkey</name>
+    </category>
+    <id>9223372036854253991</id>
+    <name>Bananka</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>sold</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854254229</id>
+    <name>pineapple</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>sold</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cat</name>
+    </category>
+    <id>162</id>
+    <name>Clay Wolf</name>
+    <photoUrls/>
+    <status>sold</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>black</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>cat</name>
+    </category>
+    <id>9223372036854255000</id>
+    <name>Tyrone Wintheiser</name>
+    <photoUrls/>
+    <status>sold</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>black</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <id>9223372036854255007</id>
+    <name>pineapple</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>sold</status>
+    <tags/>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>monkey</name>
+    </category>
+    <id>4343</id>
+    <name>Bananka</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>sold</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>0</id>
+      <name>dog</name>
+    </category>
+    <id>9223372036854255076</id>
+    <name>Patron2</name>
+    <photoUrls>
+      <photoUrl>https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fzoo-club.com.ua%2Fru%2Fdesjat-samih-malenkih-porod-sobak-v-mire%2Fabout-dogs&amp;psig=AOvVaw23SHqGUh5tBFM9XlPualyW&amp;ust=1678027437560000&amp;source=images&amp;cd=vfe&amp;ved=0CA8QjRxqFwoTCIDdvbzBwv0CFQAAAAAdAAAAABAE</photoUrl>
+    </photoUrls>
+    <status>sold</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>96650357</id>
+      <name>ut aute</name>
+    </category>
+    <id>20593238</id>
+    <name>doggie</name>
+    <photoUrls>
+      <photoUrl>in deserunt sit qui elit</photoUrl>
+      <photoUrl>do dolore</photoUrl>
+    </photoUrls>
+    <status>sold</status>
+    <tags>
+      <tag>
+        <id>80489283</id>
+        <name>dolore elit aute Excepteur anim</name>
+      </tag>
+      <tag>
+        <id>-29854588</id>
+        <name>enim</name>
+      </tag>
+    </tags>
+  </Pet>
+  <Pet>
+    <category>
+      <id>45</id>
+      <name>string</name>
+    </category>
+    <id>345</id>
+    <name>KOSMO</name>
+    <photoUrls>
+      <photoUrl>string</photoUrl>
+    </photoUrls>
+    <status>sold</status>
+    <tags>
+      <tag>
+        <id>0</id>
+        <name>string</name>
+      </tag>
+    </tags>
+  </Pet>
+</pets>
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetByStatus[not_available, [Ljava.lang.String;@b9b97ad, withApiKey, status_negative](4)" classname="com.test.APITestPet" time="1.217">
+    <system-out><![CDATA[testGetPetByStatus started: 
+Data from app:json
+An error occurred: Status value:not_available is not valid
+Data from app:xml
+An error occurred: Status value:not_available is not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetByStatus[not_pending, [Ljava.lang.String;@b9b97ad, withApiKey, status_negative](5)" classname="com.test.APITestPet" time="1.232">
+    <system-out><![CDATA[testGetPetByStatus started: 
+Data from app:json
+An error occurred: Status value:not_pending is not valid
+Data from app:xml
+An error occurred: Status value:not_pending is not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetByStatus[not_sold, [Ljava.lang.String;@b9b97ad, withApiKey, status_negative](6)" classname="com.test.APITestPet" time="1.249">
+    <system-out><![CDATA[testGetPetByStatus started: 
+Data from app:json
+An error occurred: Status value:not_sold is not valid
+Data from app:xml
+An error occurred: Status value:not_sold is not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[json, json, positive](1)" classname="com.test.APITestPet" time="0.653">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 200
+From: { "id" : 13, "category" : {"id":1523612, "name": "Dogs" },"name" : "GoodBoy1234", "photoUrls" : ["https://good_dog123.png"],"tags" : [{"id" : 321,"name": "BigOnes"}], "status":"available" } Json response: {
+    "id": 13,
+    "category": {
+        "id": 1523612,
+        "name": "Dogs"
+    },
+    "name": "GoodBoy1234",
+    "photoUrls": [
+        "https://good_dog123.png"
+    ],
+    "tags": [
+        {
+            "id": 321,
+            "name": "BigOnes"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[json, xml, positive](2)" classname="com.test.APITestPet" time="0.66">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 200
+From: { "id" : 13, "category" : {"id":1523612, "name": "Dogs" },"name" : "GoodBoy1234", "photoUrls" : ["https://good_dog123.png"],"tags" : [{"id" : 321,"name": "BigOnes"}], "status":"available" } Json response: <Pet>
+  <category>
+    <id>1523612</id>
+    <name>Dogs</name>
+  </category>
+  <id>13</id>
+  <name>GoodBoy1234</name>
+  <photoUrls>
+    <photoUrl>https://good_dog123.png</photoUrl>
+  </photoUrls>
+  <status>available</status>
+  <tags>
+    <tag>
+      <id>321</id>
+      <name>BigOnes</name>
+    </tag>
+  </tags>
+</Pet>
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[xml, xml, positive](3)" classname="com.test.APITestPet" time="0.648">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 200
+From <Pet>
+     <id>13     <category> <id>1523612</id> <name>Dogs</name></category></id><name>GoodBoy1234</name><photoUrls>
+     <photoUrl>https://good_dog123.png</photoUrl></photoUrls><status> available</status> <tags><tag><id>321</id><name>BigOnes</name></tag> </tags>
+</Pet> Json response: <Pet>
+  <id>13</id>
+  <name>GoodBoy1234</name>
+  <photoUrls>
+    <photoUrl>https://good_dog123.png</photoUrl>
+  </photoUrls>
+  <status> available</status>
+  <tags>
+    <tag>
+      <id>321</id>
+      <name>BigOnes</name>
+    </tag>
+  </tags>
+</Pet>
+<Pet>
+  <id>13</id>
+  <name>GoodBoy1234</name>
+  <photoUrls>
+    <photoUrl>https://good_dog123.png</photoUrl>
+  </photoUrls>
+  <status> available</status>
+  <tags>
+    <tag>
+      <id>321</id>
+      <name>BigOnes</name>
+    </tag>
+  </tags>
+</Pet>
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[xml, json, positive](4)" classname="com.test.APITestPet" time="0.652">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 200
+From <Pet>
+     <id>13     <category> <id>1523612</id> <name>Dogs</name></category></id><name>GoodBoy1234</name><photoUrls>
+     <photoUrl>https://good_dog123.png</photoUrl></photoUrls><status> available</status> <tags><tag><id>321</id><name>BigOnes</name></tag> </tags>
+</Pet> Json response: {
+    "id": 13,
+    "name": "GoodBoy1234",
+    "photoUrls": [
+        "https://good_dog123.png"
+    ],
+    "tags": [
+        {
+            "id": 321,
+            "name": "BigOnes"
+        }
+    ],
+    "status": " available"
+}
+{
+    "id": 13,
+    "name": "GoodBoy1234",
+    "photoUrls": [
+        "https://good_dog123.png"
+    ],
+    "tags": [
+        {
+            "id": 321,
+            "name": "BigOnes"
+        }
+    ],
+    "status": " available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[json, json, negative](5)" classname="com.test.APITestPet" time="0.003">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 404
+An error occurred: Negative numbers are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[json, xml, negative](6)" classname="com.test.APITestPet" time="0.003">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 404
+An error occurred: Negative numbers are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[xml, xml, negative](7)" classname="com.test.APITestPet" time="0.009">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 404
+An error occurred: Negative numbers are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet[xml, json, negative](8)" classname="com.test.APITestPet" time="0.002">
+    <system-out><![CDATA[testUpdatePet started: 
+Code 404
+An error occurred: Negative numbers are not valid
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[json, json, positive](1)" classname="com.test.APITestPet" time="0.652">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 200
+From com.rest.pets.PetsData@5a2f401a Json response: {
+    "id": 123,
+    "category": {
+        "id": 5,
+        "name": "Dogs"
+    },
+    "name": "GoodDoggyBoy",
+    "photoUrls": [
+        "http://FunnyDoggies.png"
+    ],
+    "tags": [
+        {
+            "id": 990,
+            "name": "cutest_animals"
+        }
+    ],
+    "status": "available"
+}
+Code status: 200
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[json, xml, positive](2)" classname="com.test.APITestPet" time="0.644">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 200
+From com.rest.pets.PetsData@2ecdcfe3 Json response: <Pet>
+  <category>
+    <id>5</id>
+    <name>Dogs</name>
+  </category>
+  <id>234</id>
+  <name>GoodDoggyBoy</name>
+  <photoUrls>
+    <photoUrl>http://FunnyDoggies.png</photoUrl>
+  </photoUrls>
+  <status>available</status>
+  <tags>
+    <tag>
+      <id>990</id>
+      <name>cutest_animals</name>
+    </tag>
+  </tags>
+</Pet>
+Code status: 200
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[xml, xml, positive](3)" classname="com.test.APITestPet" time="0.651">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 200
+From <Pet>
+    <id>345     <category><id>1523612</id> <name>Dogs</name></category></id><name>GoodBoy1234</name><photoUrls>
+     <photoUrl>https://good_dog123.png</photoUrl></photoUrls><status>available</status>
+     <tags><tag><id>321</id><name>BigOnes</name></tag></tags>
+</Pet>
+
+Json response: <Pet>
+  <id>345</id>
+  <name>GoodBoy1234</name>
+  <photoUrls>
+    <photoUrl>https://good_dog123.png</photoUrl>
+  </photoUrls>
+  <status>available</status>
+  <tags>
+    <tag>
+      <id>321</id>
+      <name>BigOnes</name>
+    </tag>
+  </tags>
+</Pet>
+Response code status:200
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[xml, json, positive](4)" classname="com.test.APITestPet" time="0.628">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 200
+From <Pet>
+    <id>456     <category><id>1523612</id> <name>Dogs</name></category></id><name>GoodBoy1234</name><photoUrls>
+     <photoUrl>https://good_dog123.png</photoUrl></photoUrls><status>available</status>
+     <tags><tag><id>321</id><name>BigOnes</name></tag></tags>
+</Pet>
+
+Json response: {
+    "id": 456,
+    "name": "GoodBoy1234",
+    "photoUrls": [
+        "https://good_dog123.png"
+    ],
+    "tags": [
+        {
+            "id": 321,
+            "name": "BigOnes"
+        }
+    ],
+    "status": "available"
+}
+Response code status:200
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[json, json, negative](5)" classname="com.test.APITestPet" time="0.676">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 404
+From com.rest.pets.PetsData@6b64429e Json response: {
+    "code": 404,
+    "type": "unknown",
+    "message": "null for uri: http://petstore.swagger.io/v2/bad_argument"
+}
+Code status: 404
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[json, xml, negative](6)" classname="com.test.APITestPet" time="0.596">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 404
+From com.rest.pets.PetsData@18b3db6e Json response: <apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/bad_argument</message>
+  <type>unknown</type>
+</apiResponse>
+Code status: 404
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[xml, xml, negative](7)" classname="com.test.APITestPet" time="0.609">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 404
+From <Pet>
+    <id>789     <category><id>1523612</id> <name>Dogs</name></category></id><name>GoodBoy1234</name><photoUrls>
+     <photoUrl>https://good_dog123.png</photoUrl></photoUrls><status>available</status>
+     <tags><tag><id>321</id><name>BigOnes</name></tag></tags>
+</Pet>
+
+Json response: <apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/bad_argument</message>
+  <type>unknown</type>
+</apiResponse>
+Response code status:404
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet[xml, json, negative](8)" classname="com.test.APITestPet" time="0.604">
+    <system-out><![CDATA[TestCreatePet started: 
+Code 404
+From <Pet>
+    <id>890     <category><id>1523612</id> <name>Dogs</name></category></id><name>GoodBoy1234</name><photoUrls>
+     <photoUrl>https://good_dog123.png</photoUrl></photoUrls><status>available</status>
+     <tags><tag><id>321</id><name>BigOnes</name></tag></tags>
+</Pet>
+
+Json response: {
+    "code": 404,
+    "type": "unknown",
+    "message": "null for uri: http://petstore.swagger.io/v2/bad_argument"
+}
+Response code status:404
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetById[json, , positive](1)" classname="com.test.APITestPet" time="0.631">
+    <system-out><![CDATA[testDeletePetById started: 
+Code 200
+Pet id : 123
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "123"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetById[xml, , positive](2)" classname="com.test.APITestPet" time="0.633">
+    <system-out><![CDATA[testDeletePetById started: 
+Code 200
+Pet id : 234
+<apiResponse>
+  <message>234</message>
+  <type>unknown</type>
+</apiResponse>
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetById[json, , negative](3)" classname="com.test.APITestPet" time="0.619">
+    <system-out><![CDATA[testDeletePetById started: 
+Code 404
+Pet id : -512
+Response status is 404
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetById[xml, , negative](4)" classname="com.test.APITestPet" time="0.602">
+    <system-out><![CDATA[testDeletePetById started: 
+Code 404
+Pet id : -512
+Response status is 404
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetById[json, , negative_order](5)" classname="com.test.APITestPet" time="0.01">
+    <system-out><![CDATA[testDeletePetById started: 
+Code 400
+Invalid ID supplied error
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePetById[xml, , negative_order](6)" classname="com.test.APITestPet" time="0.005">
+    <system-out><![CDATA[testDeletePetById started: 
+Code 400
+Invalid ID supplied error
+]]></system-out>
+  </testcase>
+</testsuite>

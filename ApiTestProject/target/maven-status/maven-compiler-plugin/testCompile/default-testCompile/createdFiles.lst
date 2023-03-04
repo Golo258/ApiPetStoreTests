@@ -1,0 +1,9 @@
+com\rest\pets\Tag.class
+com\rest\pets\Category.class
+com\rest\pets\User.class
+com\test\ApiTestUser.class
+com\test\APITestPet.class
+com\test\StatusDataProvider.class
+com\test\ApiTestStore.class
+com\rest\pets\PetsData.class
+com\test\SpecificationSetUp.class

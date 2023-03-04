@@ -1,0 +1,280 @@
+<html>
+<head>
+<title>TestNG:  ApiTestPet</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ApiTestPet</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 04 17:30:39 CET 2023</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24959 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetById()'><b>testGetPetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, , negative_order</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, xml, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetById()'><b>testGetPetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, , negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, xml, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testDeletePetById()'><b>testDeletePetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, , negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testDeletePetById()'><b>testDeletePetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, , negative_order</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testDeletePetById()'><b>testDeletePetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, , positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, json, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePetById()'><b>testCreatePetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, app_form, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePetByUploadedImg()'><b>testCreatePetByUploadedImg</b><br>Test class: com.test.APITestPet<br>Parameters: json, uploadingImg, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testDeletePetById()'><b>testDeletePetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, , negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, xml, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePetById()'><b>testCreatePetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, app_form, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, json, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, json, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, xml, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetByStatus()'><b>testGetPetByStatus</b><br>Test class: com.test.APITestPet<br>Parameters: sold, [Ljava.lang.String;@b9b97ad, withApiKey, positive</td>
+<td></td>
+<td>1</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePetById()'><b>testCreatePetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, app_form, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetByStatus()'><b>testGetPetByStatus</b><br>Test class: com.test.APITestPet<br>Parameters: not_sold, [Ljava.lang.String;@b9b97ad, withApiKey, status_negative</td>
+<td></td>
+<td>1</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, xml, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetById()'><b>testGetPetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, , negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, json, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetByStatus()'><b>testGetPetByStatus</b><br>Test class: com.test.APITestPet<br>Parameters: not_pending, [Ljava.lang.String;@b9b97ad, withApiKey, status_negative</td>
+<td></td>
+<td>1</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testDeletePetById()'><b>testDeletePetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, , negative_order</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetById()'><b>testGetPetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, , negative_order</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, xml, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetByStatus()'><b>testGetPetByStatus</b><br>Test class: com.test.APITestPet<br>Parameters: available, [Ljava.lang.String;@b9b97ad, withApiKey, positive</td>
+<td></td>
+<td>1</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, xml, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, json, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePetByUploadedImg()'><b>testCreatePetByUploadedImg</b><br>Test class: com.test.APITestPet<br>Parameters: json, uploadingImg, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetById()'><b>testGetPetById</b><br>Test class: com.test.APITestPet<br>Parameters: xml, , positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetByStatus()'><b>testGetPetByStatus</b><br>Test class: com.test.APITestPet<br>Parameters: not_available, [Ljava.lang.String;@b9b97ad, withApiKey, status_negative</td>
+<td></td>
+<td>1</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, xml, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePetById()'><b>testCreatePetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, app_form, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, json, positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testDeletePetById()'><b>testDeletePetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, , positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testUpdatePet()'><b>testUpdatePet</b><br>Test class: com.test.APITestPet<br>Parameters: xml, json, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testCreatePet()'><b>testCreatePet</b><br>Test class: com.test.APITestPet<br>Parameters: json, json, negative</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetByStatus()'><b>testGetPetByStatus</b><br>Test class: com.test.APITestPet<br>Parameters: pending, [Ljava.lang.String;@b9b97ad, withApiKey, positive</td>
+<td></td>
+<td>1</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+<tr>
+<td title='com.test.APITestPet.testGetPetById()'><b>testGetPetById</b><br>Test class: com.test.APITestPet<br>Parameters: json, , positive</td>
+<td></td>
+<td>0</td>
+<td>com.test.APITestPet@32eff876</td></tr>
+</table><p>
+</body>
+</html>

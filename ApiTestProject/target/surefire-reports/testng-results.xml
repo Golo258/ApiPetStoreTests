@@ -1,0 +1,1999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="93" passed="93" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T17:30:13 CET" name="PetStoreApiTests" finished-at="2023-03-04T17:31:04 CET" duration-ms="50637">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T17:30:13 CET" name="ApiTestUser" finished-at="2023-03-04T17:30:30 CET" duration-ms="17229">
+      <class name="com.test.ApiTestUser">
+        <test-method is-config="true" signature="BasicSetUp()[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:13 CET" name="BasicSetUp" finished-at="2023-03-04T17:30:14 CET" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicSetUp -->
+        <test-method signature="testCreateUsersArray(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:14 CET" name="testCreateUsersArray" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:17 CET" duration-ms="3347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersArray -->
+        <test-method signature="testCreateUsersArray(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:17 CET" name="testCreateUsersArray" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:18 CET" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersArray -->
+        <test-method signature="testCreateUsersArray(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:18 CET" name="testCreateUsersArray" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:18 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersArray -->
+        <test-method signature="testCreateUsersArray(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:18 CET" name="testCreateUsersArray" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:18 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersArray -->
+        <test-method signature="testGetUserByLogOut(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:18 CET" name="testGetUserByLogOut" data-provider="OnlyPositiveFormatAndScenarioProvider" finished-at="2023-03-04T17:30:19 CET" duration-ms="648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByLogOut -->
+        <test-method signature="testGetUserByLogOut(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:19 CET" name="testGetUserByLogOut" data-provider="OnlyPositiveFormatAndScenarioProvider" finished-at="2023-03-04T17:30:19 CET" duration-ms="668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByLogOut -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:19 CET" name="testCreateUser" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:20 CET" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:20 CET" name="testCreateUser" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:21 CET" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:21 CET" name="testCreateUser" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:21 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUser(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:21 CET" name="testCreateUser" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:21 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:21 CET" name="testGetUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:22 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser" duration-ms="1059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testGetUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:22 CET" name="testGetUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:23 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser" duration-ms="782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testGetUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:23 CET" name="testGetUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:23 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser" duration-ms="618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testGetUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:23 CET" name="testGetUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:24 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testGetUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:24 CET" name="testGetUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:24 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testGetUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:24 CET" name="testGetUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:24 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testGetUserByLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:24 CET" name="testGetUserByLogin" data-provider="GetLoginFormatAndScenarioProvider" finished-at="2023-03-04T17:30:25 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByLogin -->
+        <test-method signature="testGetUserByLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:25 CET" name="testGetUserByLogin" data-provider="GetLoginFormatAndScenarioProvider" finished-at="2023-03-04T17:30:25 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByLogin -->
+        <test-method signature="testGetUserByLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:25 CET" name="testGetUserByLogin" data-provider="GetLoginFormatAndScenarioProvider" finished-at="2023-03-04T17:30:25 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByLogin -->
+        <test-method signature="testGetUserByLogin(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:25 CET" name="testGetUserByLogin" data-provider="GetLoginFormatAndScenarioProvider" finished-at="2023-03-04T17:30:25 CET" depends-on-methods="com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByLogin -->
+        <test-method signature="testDeleteUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:25 CET" name="testDeleteUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:25 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testDeleteUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:25 CET" name="testDeleteUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:25 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testDeleteUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:25 CET" name="testDeleteUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:26 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testDeleteUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:26 CET" name="testDeleteUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:27 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testDeleteUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:27 CET" name="testDeleteUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:27 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testDeleteUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:27 CET" name="testDeleteUserByName" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:27 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testUpdateUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:27 CET" name="testUpdateUserByName" data-provider="UpdateUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:27 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testUpdateUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:27 CET" name="testUpdateUserByName" data-provider="UpdateUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:28 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testUpdateUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:28 CET" name="testUpdateUserByName" data-provider="UpdateUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:28 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testUpdateUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:29 CET" name="testUpdateUserByName" data-provider="UpdateUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:29 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testUpdateUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:29 CET" name="testUpdateUserByName" data-provider="UpdateUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:29 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testUpdateUserByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:29 CET" name="testUpdateUserByName" data-provider="UpdateUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:29 CET" depends-on-methods="com.test.ApiTestUser.testGetUserByLogin, com.test.ApiTestUser.testCreateUser, com.test.ApiTestUser.testGetUserByName" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testCreateUsersList(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:29 CET" name="testCreateUsersList" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:30 CET" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersList -->
+        <test-method signature="testCreateUsersList(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:30 CET" name="testCreateUsersList" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:30 CET" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersList -->
+        <test-method signature="testCreateUsersList(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:30 CET" name="testCreateUsersList" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:30 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersList -->
+        <test-method signature="testCreateUsersList(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.ApiTestUser@6ca8564a]" started-at="2023-03-04T17:30:30 CET" name="testCreateUsersList" data-provider="PostUserFormatAndScenarioProvider" finished-at="2023-03-04T17:30:30 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUsersList -->
+      </class> <!-- com.test.ApiTestUser -->
+    </test> <!-- ApiTestUser -->
+    <test started-at="2023-03-04T17:30:31 CET" name="ApiTestStore" finished-at="2023-03-04T17:30:39 CET" duration-ms="8362">
+      <class name="com.test.ApiTestStore">
+        <test-method is-config="true" signature="BasicSetUp()[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:31 CET" name="BasicSetUp" finished-at="2023-03-04T17:30:31 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicSetUp -->
+        <test-method signature="testCreatingPetStoreOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:31 CET" name="testCreatingPetStoreOrder" data-provider="PostOrderFormatAndScenarioProvider" finished-at="2023-03-04T17:30:31 CET" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatingPetStoreOrder -->
+        <test-method signature="testCreatingPetStoreOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:31 CET" name="testCreatingPetStoreOrder" data-provider="PostOrderFormatAndScenarioProvider" finished-at="2023-03-04T17:30:32 CET" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatingPetStoreOrder -->
+        <test-method signature="testCreatingPetStoreOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:32 CET" name="testCreatingPetStoreOrder" data-provider="PostOrderFormatAndScenarioProvider" finished-at="2023-03-04T17:30:32 CET" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatingPetStoreOrder -->
+        <test-method signature="testCreatingPetStoreOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:32 CET" name="testCreatingPetStoreOrder" data-provider="PostOrderFormatAndScenarioProvider" finished-at="2023-03-04T17:30:33 CET" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatingPetStoreOrder -->
+        <test-method signature="testGettingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:33 CET" name="testGettingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:34 CET" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingPetStoreOrderByID -->
+        <test-method signature="testGettingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:34 CET" name="testGettingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:34 CET" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingPetStoreOrderByID -->
+        <test-method signature="testGettingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:34 CET" name="testGettingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:35 CET" duration-ms="623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingPetStoreOrderByID -->
+        <test-method signature="testGettingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:35 CET" name="testGettingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:36 CET" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingPetStoreOrderByID -->
+        <test-method signature="testGettingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:36 CET" name="testGettingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:36 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingPetStoreOrderByID -->
+        <test-method signature="testGettingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:36 CET" name="testGettingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:36 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingPetStoreOrderByID -->
+        <test-method signature="testDeletingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:36 CET" name="testDeletingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:36 CET" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletingPetStoreOrderByID -->
+        <test-method signature="testDeletingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:36 CET" name="testDeletingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:37 CET" duration-ms="651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletingPetStoreOrderByID -->
+        <test-method signature="testDeletingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:37 CET" name="testDeletingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:38 CET" duration-ms="631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletingPetStoreOrderByID -->
+        <test-method signature="testDeletingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:38 CET" name="testDeletingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:38 CET" duration-ms="646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletingPetStoreOrderByID -->
+        <test-method signature="testDeletingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:38 CET" name="testDeletingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:38 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletingPetStoreOrderByID -->
+        <test-method signature="testDeletingPetStoreOrderByID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:38 CET" name="testDeletingPetStoreOrderByID" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:38 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletingPetStoreOrderByID -->
+        <test-method signature="testGettingStoreInventory()[pri:0, instance:com.test.ApiTestStore@4d9e68d0]" started-at="2023-03-04T17:30:38 CET" name="testGettingStoreInventory" finished-at="2023-03-04T17:30:39 CET" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingStoreInventory -->
+      </class> <!-- com.test.ApiTestStore -->
+    </test> <!-- ApiTestStore -->
+    <test started-at="2023-03-04T17:30:39 CET" name="ApiTestPet" finished-at="2023-03-04T17:31:04 CET" duration-ms="24959">
+      <class name="com.test.APITestPet">
+        <test-method is-config="true" signature="BasicSetUp()[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:39 CET" name="BasicSetUp" finished-at="2023-03-04T17:30:39 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicSetUp -->
+        <test-method signature="testCreatePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:39 CET" name="testCreatePetById" data-provider="PostParamsFormatAndScenarioProvider" finished-at="2023-03-04T17:30:40 CET" duration-ms="633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[app_form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetById -->
+        <test-method signature="testCreatePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:40 CET" name="testCreatePetById" data-provider="PostParamsFormatAndScenarioProvider" finished-at="2023-03-04T17:30:40 CET" duration-ms="628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[app_form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetById -->
+        <test-method signature="testCreatePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:40 CET" name="testCreatePetById" data-provider="PostParamsFormatAndScenarioProvider" finished-at="2023-03-04T17:30:41 CET" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[app_form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetById -->
+        <test-method signature="testCreatePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:41 CET" name="testCreatePetById" data-provider="PostParamsFormatAndScenarioProvider" finished-at="2023-03-04T17:30:41 CET" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[app_form]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetById -->
+        <test-method signature="testCreatePetByUploadedImg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:41 CET" name="testCreatePetByUploadedImg" data-provider="PostPetUploadFormatAndScenarioProvider" finished-at="2023-03-04T17:30:42 CET" duration-ms="996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uploadingImg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetByUploadedImg -->
+        <test-method signature="testCreatePetByUploadedImg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:42 CET" name="testCreatePetByUploadedImg" data-provider="PostPetUploadFormatAndScenarioProvider" finished-at="2023-03-04T17:30:43 CET" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uploadingImg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetByUploadedImg -->
+        <test-method signature="testGetPetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:43 CET" name="testGetPetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:44 CET" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetById -->
+        <test-method signature="testGetPetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:44 CET" name="testGetPetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:44 CET" duration-ms="636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetById -->
+        <test-method signature="testGetPetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:44 CET" name="testGetPetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:45 CET" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetById -->
+        <test-method signature="testGetPetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:45 CET" name="testGetPetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:46 CET" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetById -->
+        <test-method signature="testGetPetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:46 CET" name="testGetPetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:46 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetById -->
+        <test-method signature="testGetPetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:46 CET" name="testGetPetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:30:46 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetById -->
+        <test-method signature="testGetPetByStatus(java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:46 CET" name="testGetPetByStatus" data-provider="GetStatusFormatAndScenarioProvider" finished-at="2023-03-04T17:30:47 CET" duration-ms="1680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b9b97ad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withApiKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetByStatus -->
+        <test-method signature="testGetPetByStatus(java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:47 CET" name="testGetPetByStatus" data-provider="GetStatusFormatAndScenarioProvider" finished-at="2023-03-04T17:30:49 CET" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b9b97ad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withApiKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetByStatus -->
+        <test-method signature="testGetPetByStatus(java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:49 CET" name="testGetPetByStatus" data-provider="GetStatusFormatAndScenarioProvider" finished-at="2023-03-04T17:30:50 CET" duration-ms="1254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sold]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b9b97ad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withApiKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetByStatus -->
+        <test-method signature="testGetPetByStatus(java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:50 CET" name="testGetPetByStatus" data-provider="GetStatusFormatAndScenarioProvider" finished-at="2023-03-04T17:30:51 CET" duration-ms="1243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not_available]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b9b97ad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withApiKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[status_negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetByStatus -->
+        <test-method signature="testGetPetByStatus(java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:51 CET" name="testGetPetByStatus" data-provider="GetStatusFormatAndScenarioProvider" finished-at="2023-03-04T17:30:52 CET" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not_pending]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b9b97ad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withApiKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[status_negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetByStatus -->
+        <test-method signature="testGetPetByStatus(java.lang.String,[Ljava.lang.String;,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:52 CET" name="testGetPetByStatus" data-provider="GetStatusFormatAndScenarioProvider" finished-at="2023-03-04T17:30:54 CET" duration-ms="1243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[not_sold]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@b9b97ad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[withApiKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[status_negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetByStatus -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:54 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:54 CET" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:54 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:55 CET" duration-ms="646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:55 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:56 CET" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:56 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:56 CET" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:56 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:56 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:56 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:56 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:56 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:56 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testUpdatePet(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:56 CET" name="testUpdatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:56 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:56 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:57 CET" duration-ms="667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:57 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:58 CET" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:58 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:58 CET" duration-ms="652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:58 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:59 CET" duration-ms="622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:59 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:30:59 CET" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:30:59 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:31:00 CET" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:00 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:31:01 CET" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testCreatePet(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:01 CET" name="testCreatePet" data-provider="PostFormatAndScenarioProvider" finished-at="2023-03-04T17:31:01 CET" duration-ms="599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testDeletePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:01 CET" name="testDeletePetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:31:02 CET" depends-on-methods="com.test.APITestPet.testCreatePet" duration-ms="621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetById -->
+        <test-method signature="testDeletePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:02 CET" name="testDeletePetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:31:03 CET" depends-on-methods="com.test.APITestPet.testCreatePet" duration-ms="634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetById -->
+        <test-method signature="testDeletePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:03 CET" name="testDeletePetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:31:03 CET" depends-on-methods="com.test.APITestPet.testCreatePet" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetById -->
+        <test-method signature="testDeletePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:03 CET" name="testDeletePetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:31:04 CET" depends-on-methods="com.test.APITestPet.testCreatePet" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetById -->
+        <test-method signature="testDeletePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:04 CET" name="testDeletePetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:31:04 CET" depends-on-methods="com.test.APITestPet.testCreatePet" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetById -->
+        <test-method signature="testDeletePetById(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.test.APITestPet@32eff876]" started-at="2023-03-04T17:31:04 CET" name="testDeletePetById" data-provider="OnlyAcceptFormatAndScenarioProvider" finished-at="2023-03-04T17:31:04 CET" depends-on-methods="com.test.APITestPet.testCreatePet" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[negative_order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetById -->
+      </class> <!-- com.test.APITestPet -->
+    </test> <!-- ApiTestPet -->
+  </suite> <!-- PetStoreApiTests -->
+</testng-results>
