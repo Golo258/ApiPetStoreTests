@@ -9,3 +9,5 @@ The second option is to simple open project using the appropriate IntelliJ or ec
 	ApiTestUser.java
 	ApiTestPet.java
 	ApiTestStore.java
+
+During the start of all tests, at the time of test "testCreatePetByUploadedImg" a selection window will appear in which you must select the photo needed to perform the test.
